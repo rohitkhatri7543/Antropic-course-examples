@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Write a Python function using boto3 to check if a specific S3 bucket exists.",
+    "format": "python",
+    "solution_criteria": "Uses head_bucket; handles 404 error correctly; returns a boolean."
+  },
+  {
+    "task": "Create an IAM Policy (JSON) that allows 's3:GetObject' only for a bucket named 'my-data-bucket'.",
+    "format": "json",
+    "solution_criteria": "Valid JSON structure; Effect is 'Allow'; Action is 's3:GetObject'; Resource matches the bucket ARN."
+  },
+  {
+    "task": "Create a Regex to validate an AWS Account ID (must be exactly 12 digits).",
+    "format": "regex",
+    "solution_criteria": "Matches exactly 12 numeric characters; uses start (^) and end ($) anchors to prevent partial matches."
+  }
+]
