@@ -1,0 +1,11 @@
+[
+    {
+      "task": "Write a Python function using boto3 to start an Amazon EC2 instance given an 'instance_id'."
+    },
+    {
+      "task": "Create a JSON IAM Policy that allows 's3:ListBucket' and 's3:GetObject' actions on a bucket named 'my-data-bucket'."
+    },
+    {
+      "task": "Write a Regex to validate an AWS Account ID (a string of exactly 12 digits)."
+    }
+  ]
