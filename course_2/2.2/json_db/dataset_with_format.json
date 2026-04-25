@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Write a Python function using boto3 to return a list of all S3 bucket names in an account.",
+    "format": "python"
+  },
+  {
+    "task": "Create an IAM Policy (JSON) that allows 's3:GetObjects' access but only for a bucket named 'my-app-data'.",
+    "format": "json"
+  },
+  {
+    "task": "Create a regex to extract the Account ID (12-digit number) from an AWS ARN string.",
+    "format": "regex"
+  }
+]
